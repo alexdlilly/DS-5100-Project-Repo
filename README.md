@@ -78,11 +78,12 @@ __Parameters__:
 &ensp;&ensp;**new weight** : The new value of the face weight. </ul>
     
     Die.roll(num_rolls):
-Rolls the die num_rolls times. Stores results of each roll in Die.results as a dataframe. 
+Rolls the die 'num_rolls' times. Stores results of each roll in Die.results as a dataframe. 
+<ul>
 
 __Parameters__: 
 
-&ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)
+&ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)</ul>
 
     Die.show_weights(): 
 __Returns__ : A dataframe of the die faces and their corresponding weights. 
