@@ -4,9 +4,15 @@ Name: Alexander Lilly
 
 Montecarlo Simulator
 
+Version: 1.0.0
+
+Date: December, 2022
+
+Description:
+
 ## Synopsis
 
-### Installing
+### Installation
     montecarlo>pip install -e.
 
 ### Importing
@@ -59,7 +65,7 @@ Faces : ***list of numerics or strings***.
 
 <ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
-#### Methods:
+<span style="color:blue">Methods:</span>
 
     Die.change_weight(face, new weight): 
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
@@ -71,7 +77,7 @@ __Parameters__:
 &ensp;&ensp;**new weight** : The new value of the face weight. 
     
     Die.roll(num_rolls):
-Rolls the die num_rolls times. Stores results of each roll in .results as a dataframe. 
+Rolls the die num_rolls times. Stores results of each roll in Die.results as a dataframe. 
 
 __Parameters__: 
 
