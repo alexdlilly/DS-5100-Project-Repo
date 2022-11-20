@@ -64,9 +64,9 @@ assumes equal probabilistic weights for each possible outcome.
 ATTRIBUTES:
 
     Die.faces 
-    a list of possible outcomes associated with the Die object. 
+a list of possible outcomes associated with the Die object. 
     Die.results
-    Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
+Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
 
 METHODS:
 
