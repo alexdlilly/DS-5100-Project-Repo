@@ -65,9 +65,10 @@ __Methods__:
 
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
 
-__Parameters__: **face** : The value of the face to change
+__Parameters__: 
+**face** : The value of the face to change
 
-&ensp;&ensp;&ensp;&ensp;&nbsp;**new weight** : The new value of the face weight. 
+**new weight** : The new value of the face weight. 
 
 
     
