@@ -4,6 +4,7 @@ Name: Alexander Lilly
 Montecarlo Simulator
 ## Synopsis
 ### Installing
+    montecarlo>pip install -e.
 ### Importing
 ### Creating dice objects
 ### Playing games
