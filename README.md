@@ -51,22 +51,15 @@ Get sorted (descending) dataframe of most frequent roll combinations.
     
 ## API description
 ### montecarlo.Die
-class montecarlo.Die(Faces)
+***class*** montecarlo.Die(Faces)
 
 Parameters:
 
 Faces : ***list of numerics or strings***.
 
-A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would 
+&ensp;A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would 
 be a list of length 6 where each element represents a face of the dice. By default, the Die class
 assumes equal probabilistic weights for each possible outcome. 
-
-ATTRIBUTES:
-
-    Die.faces 
-a list of possible outcomes associated with the Die object. 
-    Die.results
-Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
 
 METHODS:
 
@@ -74,6 +67,14 @@ METHODS:
     the change the weight of and the weight to which to change it to the change_weight() method. 
     roll(num_rolls): Rolls the die num_rolls times. Stores results of each roll in .results as a dataframe. 
     show_weights(): Returns a dataframe of the die faces and their corresponding weights. 
+
+ATTRIBUTES:
+
+    Die.faces 
+a list of possible outcomes associated with the Die object. 
+    
+    Die.results
+Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
 
 A list of all classes with their public methods and attributes.
 For each method:
