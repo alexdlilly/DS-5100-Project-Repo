@@ -61,20 +61,20 @@ Get sorted (descending) dataframe of most frequent roll combinations.
 
 __Initialization Parameters__:
 
-Faces : ***list of numerics or strings***.
+Faces : ***list of integer, float, or string***.
 
 <ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
-<span style="color:blue">Methods:</span>
+#### Methods: 
 
     Die.change_weight(face, new weight): 
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
-
+<ul>
 __Parameters__: 
 
 &ensp;&ensp;**face** : The value of the face to change.
 
-&ensp;&ensp;**new weight** : The new value of the face weight. 
+&ensp;&ensp;**new weight** : The new value of the face weight. </ul>
     
     Die.roll(num_rolls):
 Rolls the die num_rolls times. Stores results of each roll in Die.results as a dataframe. 
