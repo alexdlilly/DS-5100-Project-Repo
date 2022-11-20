@@ -70,6 +70,7 @@ Faces : ***list of integer, float, or string***.
     Die.change_weight(face, new weight): 
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
 <ul>
+
 __Parameters__: 
 
 &ensp;&ensp;**face** : The value of the face to change.
