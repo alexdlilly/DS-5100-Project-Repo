@@ -57,7 +57,9 @@ Get sorted (descending) dataframe of most frequent roll combinations.
     
 ## API description
 ### montecarlo.Die
-***class*** montecarlo.Die(Faces)
+***class*** montecarlo.Die
+
+    montecarlo.Die(Faces)
 
 __Initialization Parameters__:
 
@@ -106,9 +108,11 @@ __Returns__ : A list of possible outcomes associated with the Die object. </ul>
 
 __Returns__ : A dataframe with the roll number as the index and the rolled face as the value. Accesible only after the roll() method has been executed.</ul>
 
-A list of all classes with their public methods and attributes.
-For each method:
-Show the docstring
-List and describe all parameters (with data types and defaults)
-List and describe return values, if any
-Do not describe private methods and attributes
+### montecarlo.Game
+***class*** montecarlo.Game
+
+    montecarlo.Game(montecarlo.Die objects)
+
+__Initialization Parameters__:
+
+Faces : ***list of montecarlo.Die objects***.
