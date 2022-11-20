@@ -83,10 +83,10 @@ Returns a dataframe of the die faces and their corresponding weights.
 #### Attributes:
 
     Die.faces 
-A list of possible outcomes associated with the Die object. 
+__Returns__ : A list of possible outcomes associated with the Die object. 
     
     Die.results
-Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
+__Returns__ : a dataframe with the roll number as the index and the value as the outcome of the rolled die. Accesible only after the roll() method has been executed.
 
 A list of all classes with their public methods and attributes.
 For each method:
