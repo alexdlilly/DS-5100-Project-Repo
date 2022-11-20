@@ -57,7 +57,7 @@ Parameters:
 
 Faces : ***list of numerics or strings***.
 
-<ul> A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.
+<ul> A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
 METHODS:
 
