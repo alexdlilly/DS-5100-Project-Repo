@@ -57,13 +57,22 @@ __Initialization Parameters__:
 
 Faces : ***list of numerics or strings***.
 
-<ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul></ul>
+<ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
-METHODS:
+__Methods__:
 
-    change_weight(face, new weight): To alter the default equal weight among die faces, pass the face you wish 
-    the change the weight of and the weight to which to change it to the change_weight() method. 
-    roll(num_rolls): Rolls the die num_rolls times. Stores results of each roll in .results as a dataframe. 
+    Die.change_weight(face, new weight): 
+
+To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
+
+__Parameters__: **face** : The value of the face to change
+              : **new weight** : The new value of the face weight. 
+
+
+    
+    roll(num_rolls):
+Rolls the die num_rolls times. Stores results of each roll in .results as a dataframe. 
+    
     show_weights(): Returns a dataframe of the die faces and their corresponding weights. 
 
 ATTRIBUTES:
