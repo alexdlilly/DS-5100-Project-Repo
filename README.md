@@ -78,7 +78,7 @@ __Parameters__:
 &ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)
 
     Die.show_weights(): 
-Returns a dataframe of the die faces and their corresponding weights. 
+__Returns__ : A dataframe of the die faces and their corresponding weights. 
 
 #### Attributes:
 
