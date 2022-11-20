@@ -62,7 +62,6 @@ Faces : ***list of numerics or strings***.
 __Methods__:
 
     Die.change_weight(face, new weight): 
-
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
 
 __Parameters__: 
@@ -70,13 +69,16 @@ __Parameters__:
 &ensp;&ensp;**face** : The value of the face to change.
 
 &ensp;&ensp;**new weight** : The new value of the face weight. 
-
-
     
-    roll(num_rolls):
+    Die.roll(num_rolls):
 Rolls the die num_rolls times. Stores results of each roll in .results as a dataframe. 
-    
-    show_weights(): Returns a dataframe of the die faces and their corresponding weights. 
+
+__Parameters__: 
+
+&ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)
+
+    Die.show_weights(): 
+Returns a dataframe of the die faces and their corresponding weights. 
 
 ATTRIBUTES:
 
