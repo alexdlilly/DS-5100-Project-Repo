@@ -53,9 +53,9 @@ Get sorted (descending) dataframe of most frequent roll combinations.
 ### montecarlo.Die
 ***class*** montecarlo.Die(Faces)
 
-<ul>Initialization Parameters:
+__Initialization Parameters__:
 
-Faces : ***list of numerics or strings***.
+<ul>Faces : ***list of numerics or strings***.
 
 <ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul></ul>
 
