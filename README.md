@@ -13,7 +13,7 @@ Description:
 ## Synopsis
 
 ### Installation
-    montecarlo>pip install -e.
+    ~\montecarlo>pip install -e.
 
 ### Importing
     from montecarlo import Die, Game, Analyzer
@@ -68,8 +68,9 @@ Faces : ***list of integer, float, or string***.
 #### Methods: 
 
     Die.change_weight(face, new weight): 
-Changes the weight of `face` to `new weight`. Inputs must match the data type of original face list. 
 <ul>
+
+Changes the weight of `face` to `new weight`. Inputs must match the data type of original face list. 
 
 __Parameters__: 
 
@@ -78,8 +79,10 @@ __Parameters__:
 &ensp;&ensp;**new weight** : The new value of the face weight. </ul>
     
     Die.roll(num_rolls):
-Rolls the die 'num_rolls' times. Stores results of each roll in Die.results as a dataframe. 
+
 <ul>
+
+Rolls the die `num_rolls` times. Stores results of each roll in Die.results as a dataframe. 
 
 __Parameters__: 
 
