@@ -89,15 +89,22 @@ __Parameters__:
 &ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)</ul>
 
     Die.show_weights(): 
-__Returns__ : A dataframe of the die faces and their corresponding weights. 
+
+<ul>
+
+__Returns__ : A dataframe of the die faces and their corresponding weights. </ul>
 
 #### Attributes:
 
     Die.faces 
-__Returns__ : A list of possible outcomes associated with the Die object. 
+<ul>
+
+__Returns__ : A list of possible outcomes associated with the Die object. </ul>
     
     Die.results
-__Returns__ : a dataframe with the roll number as the index and the value as the outcome of the rolled die. Accesible only after the roll() method has been executed.
+<ul>
+
+__Returns__ : A dataframe with the roll number as the index and the rolled face as the value. Accesible only after the roll() method has been executed.</ul>
 
 A list of all classes with their public methods and attributes.
 For each method:
