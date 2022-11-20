@@ -6,6 +6,7 @@ Montecarlo Simulator
 ### Installing
     montecarlo>pip install -e.
 ### Importing
+    from montecarlo import Die, Game, Analyzer
 ### Creating dice objects
 ### Playing games
 ### Analyzing games
