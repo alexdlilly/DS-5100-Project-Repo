@@ -45,6 +45,7 @@ Get the percentage of jackpots across N plays.
     Jackpots_Percentage = Analysis.jackpot()/N
 
 Get sorted (descending) dataframe of most frequent roll combinations.
+    
     Analysis.Combo()
     Combos = Analysis.combo()
     
