@@ -116,3 +116,20 @@ __Returns__ : A dataframe with the roll number as the index and the rolled face 
 __Initialization Parameters__:
 
 Faces : ***list of montecarlo.Die objects***.
+
+#### Methods: 
+
+    Game.play(N): 
+
+<ul>
+
+Rolls each die object `N` times.
+
+__Parameters__:
+**N** : Number of times to roll the dice (***integer***)</ul>
+
+    Game.show(form='Wide'): form = 'Wide' (default) or form = 'Narrow'. 
+
+<ul>    
+
+__Returns__ : A dataframe with columns for each die, rows for each `N` rolls, and values as the rolled face if `form = 'Wide'`. If `form = 'Narrow'`, `Game.show()` returns a multi-index array where the roll number and die ID are the indices, and the value are the outcomes of the associated roll number and die ID. </ul>
