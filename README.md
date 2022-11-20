@@ -67,9 +67,9 @@ To alter the default equal weight among die faces, pass the face of which to cha
 
 __Parameters__: 
 
-**face** : The value of the face to change.
+&ensp;&ensp;**face** : The value of the face to change.
 
-**new weight** : The new value of the face weight. 
+&ensp;&ensp;**new weight** : The new value of the face weight. 
 
 
     
