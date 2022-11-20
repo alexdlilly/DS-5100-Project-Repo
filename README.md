@@ -13,12 +13,20 @@ Montecarlo Simulator
     from montecarlo import Die, Game, Analyzer
 
 ### Creating dice objects
-    Faces = ['H','T'] # create coin with heads or tails faces
+Create coin with heads or tails faces
+    Faces = ['H','T']
+
+Create the die object
     Die_Object = Die(Faces)
 
 ### Playing games
+Initialize the game object by passing the die objects as inputs. 
+
     Game = Game([Die_Object 1, Die_Object 2, Die_Object_3])
-    Game.play(1000)
+
+Play the game N times. 
+    N = 1000
+    Game.play(N)
 
 ### Analyzing games
     Analysis = Analyzer(Game)
