@@ -59,7 +59,7 @@ Faces : ***list of numerics or strings***.
 
 <ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
-__Methods__:
+#### Methods:
 
     Die.change_weight(face, new weight): 
 To alter the default equal weight among die faces, pass the face of which to change the weight and the weight to which to change it to the change_weight() method. Inputs must match the data type of original face list. 
@@ -80,10 +80,10 @@ __Parameters__:
     Die.show_weights(): 
 Returns a dataframe of the die faces and their corresponding weights. 
 
-ATTRIBUTES:
+#### Attributes:
 
     Die.faces 
-a list of possible outcomes associated with the Die object. 
+A list of possible outcomes associated with the Die object. 
     
     Die.results
 Accesible only after the roll() method has been executed, Die.results returns a dataframe with the roll number as the index and the value as the outcome of the rolled die. 
