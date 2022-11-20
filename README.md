@@ -14,18 +14,22 @@ Montecarlo Simulator
 
 ### Creating dice objects
 Create coin with heads or tails faces
+    
     Faces = ['H','T']
 
 Create the die object
+    
     Die_Object = Die(Faces)
 
 ### Playing games
 Initialize the game object by passing the die objects as inputs. 
 
-    Game = Game([Die_Object 1, Die_Object 2, Die_Object_3])
+    Game = Game([Die_Object_1, Die_Object_2, Die_Object_3])
 
 Play the game N times. 
+    
     N = 1000
+    
     Game.play(N)
 
 ### Analyzing games
