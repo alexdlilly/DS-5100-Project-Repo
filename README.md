@@ -130,8 +130,23 @@ __Parameters__:
 
     Game.show(form): 
 <ul>  
+
 __Parameters__:
 
 **form** : `'Wide'` (***default***) or `'Narrow'`. 
 
 __Returns__ : A dataframe with columns for each die, rows for each `N` rolls, and values as the rolled face if `form = 'Wide'`. If `form = 'Narrow'`, `Game.show()` returns a multi-index array where the roll number and die ID are the indices, and the value are the outcomes of the associated roll number and die ID. </ul>
+
+#### Attributes:
+
+    Game.dies: 
+
+<ul> 
+
+__Returns__ : a list of 'monetcarlo.Die' objects passed through montecarlo.Game() during initialization. </ul>
+    
+    Game._results: 
+
+<ul>
+
+__Returns__ :Accessible only after the play() method has been executed. Each row corresponds to a roll, and each column corresponds to an outcome of one of the die objects.  </ul>
