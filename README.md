@@ -143,10 +143,5 @@ __Returns__ : A dataframe with columns for each die, rows for each `N` rolls, an
 
 <ul> 
 
-__Returns__ : a list of 'monetcarlo.Die' objects passed through montecarlo.Game() during initialization. </ul>
+__Returns__ : a list of `monetcarlo.Die` objects passed through `montecarlo.Game()` during initialization. </ul>
     
-    Game._results: 
-
-<ul>
-
-__Returns__ :Accessible only after the play() method has been executed. Each row corresponds to a roll, and each column corresponds to an outcome of one of the die objects.  </ul>
