@@ -182,7 +182,7 @@ Counts the frequency of a given combination of rolled faces, sorted in descendin
 
 __Returns__: the dataframe `Analyzer.combo`. </ul>
 
-### Attributes:
+#### Attributes:
 
     Analyzer.game
 
