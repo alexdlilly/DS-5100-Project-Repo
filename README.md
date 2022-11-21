@@ -132,7 +132,7 @@ __Parameters__:
 
 __Parameters__:
 
-**form** : `'Wide'` (***default***) or `'Narrow'`. 
+`form` : `'Wide'` (***default***) or `'Narrow'`. 
 
 __Returns__ : A dataframe with columns for each die, rows for each `N` rolls, and values as the rolled face if `form = 'Wide'`. If `form = 'Narrow'`, `Game.show()` returns a multi-index array where the roll number and die ID are the indices, and the value are the outcomes of the associated roll number and die ID. </ul>
 
