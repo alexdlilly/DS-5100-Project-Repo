@@ -67,16 +67,16 @@ Faces : ***list of integer, float, or string***.
 
 #### Methods: 
 
-    Die.change_weight(face, new weight): 
+    Die.change_weight(face, new_weight): 
 <ul>
 
-Changes the weight of `face` to `new weight`. Inputs must match the data type of original face list. 
+Changes the weight of `face` to `new_weight`. Inputs must match the data type of original face list. 
 
 __Parameters__: 
 
 &ensp;&ensp;**face** : The value of the face to change.
 
-&ensp;&ensp;**new weight** : The new value of the face weight. </ul>
+&ensp;&ensp;**new_weight** : The new value of the face weight. </ul>
     
     Die.roll(num_rolls):
 
