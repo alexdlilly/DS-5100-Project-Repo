@@ -163,7 +163,7 @@ Games : ***list of montecarlo.Game objects***.
 
 Counts the number of each possible face that was rolled for each roll event. 
 
-__Returns__: the dataframe Analyzer.face_counts. </ul>
+__Returns__: the dataframe `Analyzer.face_counts`. </ul>
 
     Analyzer.jackpot(): 
 
@@ -171,7 +171,7 @@ __Returns__: the dataframe Analyzer.face_counts. </ul>
 
 Counts the number of times all dice rolled the same face. 
 
-__Returns__: the integer Analyzer.num_jackpots.</ul>
+__Returns__: the integer `Analyzer.num_jackpots`.</ul>
 
     Analyzer.Combo(): 
 
@@ -179,18 +179,21 @@ __Returns__: the integer Analyzer.num_jackpots.</ul>
 
 Counts the frequency of a given combination of rolled faces, sorted in descending order based on frequency. 
 
-__Returns__: the dataframe Analyzer.combo. </ul>
+__Returns__: the dataframe `Analyzer.combo`. </ul>
 
 ### Attributes:
 
-    Analyzer.game: the game object passed through the Analyzer initialization method. 
-    Analyzer.face_counts: Accessible after executing the face_counts_per_roll() method. Analyzer.face_counts is a dataframe
-        where each row corresponds to a roll event, and each column is a face of the die object. The values of this dataframe
-        correspond to the number of times a given face was rolled in a given roll event. 
-    Analyzer.num_jackpots: The number of times all dice rolled the same face. 
-    Analyzer.combo: A multi-index dataframe where the indices are different combinations of rolled faces, and the values correspond
-        to the number of times those faces were rolled. This dataframe is sorted in descending order, so combinations with the highest
-        frequency of occurrence are at the top.  
+    Analyzer.game
+the game object passed through the Analyzer initialization method. 
+    
+    Analyzer.face_counts
+Accessible after executing the face_counts_per_roll() method. Analyzer.face_counts is a dataframe where each row corresponds to a roll event, and each column is a face of the die object. The values of this dataframe correspond to the number of times a given face was rolled in a given roll event. 
+    
+    Analyzer.num_jackpots
+The number of times all dice rolled the same face. 
+    
+    Analyzer.combo
+A multi-index dataframe where the indices are different combinations of rolled faces, and the values correspond to the number of times those faces were rolled. This dataframe is sorted in descending order, so combinations with the highest frequency of occurrence are at the top.  
 
 
 
