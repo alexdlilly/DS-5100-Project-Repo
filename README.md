@@ -61,7 +61,7 @@ Get sorted (descending) dataframe of most frequent roll combinations.
 
 __Initialization Parameters__:
 
-Faces : ***list of integer, float, or string***.
+`Faces` : ***list of integer, float, or string***.
 
 <ul>A list of possible outcomes for a given random event. For example, for a 6-sided die, faces would be a list of length 6 where each element represents a face of the dice. By default, the Die class assumes equal probabilistic weights for each possible outcome.</ul>
 
@@ -113,7 +113,7 @@ __Returns__ : A dataframe with the roll number as the index and the rolled face 
 
 __Initialization Parameters__:
 
-Dies : ***list of montecarlo.Die objects***.
+`Dies` : ***list of montecarlo.Die objects***.
 
 #### Methods: 
 
@@ -152,7 +152,7 @@ __Returns__ : a list of `monetcarlo.Die` objects passed through `montecarlo.Game
 
 __Initialization Parameters__:
 
-Games : ***list of montecarlo.Game objects***.
+`Games` : ***list of montecarlo.Game objects***.
 
 #### Methods: 
 
