@@ -74,19 +74,19 @@ Changes the weight of `face` to `new_weight`. Inputs must match the data type of
 
 __Parameters__: 
 
-&ensp;&ensp;**face** : The value of the face to change.
+&ensp;&ensp;`face` : The value of the face to change.
 
-&ensp;&ensp;**new_weight** : The new value of the face weight. </ul>
+&ensp;&ensp;`new_weight` : The new value of the face weight. </ul>
     
     Die.roll(num_rolls):
 
 <ul>
 
-Rolls the die `num_rolls` times. Stores results of each roll in Die.results as a dataframe. 
+Rolls the die `num_rolls` times. Stores results of each roll in `Die.results` as a dataframe. 
 
 __Parameters__: 
 
-&ensp;&ensp;**num_rolls** : Number of times to roll the dice (***integer***)</ul>
+&ensp;&ensp;`num_rolls` : Number of times to roll the dice (***integer***)</ul>
 
     Die.show_weights(): 
 
@@ -125,7 +125,7 @@ Rolls each die object `N` times.
 
 __Parameters__:
 
-**N** : Number of times to roll the dice (***integer***)</ul>
+`N` : Number of times to roll the dice (***integer***)</ul>
 
     Game.show(form): 
 <ul>  
