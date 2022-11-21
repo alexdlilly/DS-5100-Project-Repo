@@ -8,8 +8,6 @@ Version: 1.0.0
 
 Date: December, 2022
 
-Description:
-
 ## Synopsis
 
 ### Installation
