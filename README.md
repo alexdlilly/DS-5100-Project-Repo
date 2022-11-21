@@ -126,6 +126,7 @@ Dies : ***list of montecarlo.Die objects***.
 Rolls each die object `N` times.
 
 __Parameters__:
+
 **N** : Number of times to roll the dice (***integer***)</ul>
 
     Game.show(form): 
@@ -184,17 +185,25 @@ __Returns__: the dataframe `Analyzer.combo`. </ul>
 ### Attributes:
 
     Analyzer.game
-the game object passed through the Analyzer initialization method. 
+
+<ul>
+
+__Returns__: The game object passed through the Analyzer initialization method.</ul> 
     
     Analyzer.face_counts
-Accessible after executing the face_counts_per_roll() method. Analyzer.face_counts is a dataframe where each row corresponds to a roll event, and each column is a face of the die object. The values of this dataframe correspond to the number of times a given face was rolled in a given roll event. 
+
+<ul>
+
+__Returns__: A dataframe where each row corresponds to a roll event, and each column is a face of the die object. The values of this dataframe correspond to the number of times a given face was rolled in a given roll event. Accessible only after executing the `Analyzer.face_counts_per_roll()` method. </ul>
     
     Analyzer.num_jackpots
-The number of times all dice rolled the same face. 
+
+<ul>
+
+__Returns__: The number (***integer***) of times all dice rolled the same face. </ul>
     
     Analyzer.combo
-A multi-index dataframe where the indices are different combinations of rolled faces, and the values correspond to the number of times those faces were rolled. This dataframe is sorted in descending order, so combinations with the highest frequency of occurrence are at the top.  
 
+<ul>
 
-
-    """
+__Returns__: A multi-index dataframe where the indices are different combinations of rolled faces, and the values correspond to the number of times those faces were rolled. This dataframe is sorted in descending order, so combinations with the highest frequency of occurrence are at the top.  </ul>
