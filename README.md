@@ -111,11 +111,11 @@ __Returns__ : A dataframe with the roll number as the index and the rolled face 
 ### montecarlo.Game
 ***class*** montecarlo.Game
 
-    montecarlo.Game(montecarlo.Die objects)
+    montecarlo.Game(Dies)
 
 __Initialization Parameters__:
 
-Faces : ***list of montecarlo.Die objects***.
+Dies : ***list of montecarlo.Die objects***.
 
 #### Methods: 
 
@@ -145,3 +145,53 @@ __Returns__ : A dataframe with columns for each die, rows for each `N` rolls, an
 
 __Returns__ : a list of `monetcarlo.Die` objects passed through `montecarlo.Game()` during initialization. </ul>
     
+### montecarlo.Analyzer
+
+***class*** montecarlo.Analyzer
+
+    montecarlo.Analyzer(Games)
+
+__Initialization Parameters__:
+
+Games : ***list of montecarlo.Game objects***.
+
+#### Methods: 
+
+    Analyzer.face_counts_per_roll() 
+
+<ul> 
+
+Counts the number of each possible face that was rolled for each roll event. 
+
+__Returns__: the dataframe Analyzer.face_counts. </ul>
+
+    Analyzer.jackpot(): 
+
+<ul>
+
+Counts the number of times all dice rolled the same face. 
+
+__Returns__: the integer Analyzer.num_jackpots.</ul>
+
+    Analyzer.Combo(): 
+
+<ul>
+
+Counts the frequency of a given combination of rolled faces, sorted in descending order based on frequency. 
+
+__Returns__: the dataframe Analyzer.combo. </ul>
+
+### Attributes:
+
+    Analyzer.game: the game object passed through the Analyzer initialization method. 
+    Analyzer.face_counts: Accessible after executing the face_counts_per_roll() method. Analyzer.face_counts is a dataframe
+        where each row corresponds to a roll event, and each column is a face of the die object. The values of this dataframe
+        correspond to the number of times a given face was rolled in a given roll event. 
+    Analyzer.num_jackpots: The number of times all dice rolled the same face. 
+    Analyzer.combo: A multi-index dataframe where the indices are different combinations of rolled faces, and the values correspond
+        to the number of times those faces were rolled. This dataframe is sorted in descending order, so combinations with the highest
+        frequency of occurrence are at the top.  
+
+
+
+    """
