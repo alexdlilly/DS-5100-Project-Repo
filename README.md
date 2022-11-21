@@ -104,7 +104,7 @@ __Returns__ : A list of possible outcomes associated with the Die object. </ul>
     Die.results
 <ul>
 
-__Returns__ : A dataframe with the roll number as the index and the rolled face as the value. Accesible only after the roll() method has been executed.</ul>
+__Returns__ : A dataframe with the roll number as the index and the rolled face as the value. Accesible only after the `Die.roll()` method has been executed.</ul>
 
 ### montecarlo.Game
 ***class*** montecarlo.Game
