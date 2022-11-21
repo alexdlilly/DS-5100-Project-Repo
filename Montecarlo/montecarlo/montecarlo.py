@@ -8,8 +8,6 @@ class Die:
                     assumes equal probabilistic weights for each possible outcome. 
         ATTRIBUTES:
             Die.faces = a list of possible outcomes associated with the Die object. 
-            Die._weight = a list of weights associated with each face of the Die object. 
-            Die._faces_weight = a dataframe of faces and weights associated with the Die object. 
             Die.results = Accesible only after the roll() method has been executed, Die.results returns a dataframe with 
                     the roll number as the index and the value as the outcome of the rolled die. 
         METHODS:
@@ -56,9 +54,7 @@ class Game():
             dies: a list of die objects created by the Die class. Each die object must have the same faces, although each die 
                 object can have different weights associated with the die faces. 
         ATTRIBUTES:
-            Game.dies: a list of die objects passed through the Game initialization method. 
-            Game._results: Accessible only after the play() method has been executed. Each row corresponds to a roll, and
-                each column corresponds to an outcome of one of the die objects.  
+            Game.dies: a list of die objects passed through the Game initialization method.  
         METHODS:
             Game.play(N): Rolls each die object N times, stores results in a dataframe Game._results. 
             Game.show(form='Wide'): form = 'Wide' (default) or form = 'Narrow'. If form = 'Wide', Game.show() returns 
